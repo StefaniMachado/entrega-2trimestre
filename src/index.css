@@ -1,0 +1,23 @@
+:root {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  margin: 500;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+img{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  }
+  

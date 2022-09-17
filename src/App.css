@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #8BADD9;
+  color: rgb(99, 10, 182);
+}
+
+::placeholder {
+color: blueviolet;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+#root {
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+input, select {
+  color: blueviolet;
+  background-color: whitesmoke;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  height: 24px;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
